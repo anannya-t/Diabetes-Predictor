@@ -9,6 +9,32 @@ body {
     font-size: 24px;
 }
 
+#diabetes {
+    float: right;
+}
+
+#submit {
+    color: #0b446b;
+    font-size: 18px;
+    background-color: #e3826b;
+    font-family: 'Lato', serif;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
+}
+
+#submit:hover {
+    color:#e3826b;
+    background-color:#0b446b;
+    font-family: 'Lato', serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .indicator_label {
     font-family: 'Lato', serif;
     color: white;
